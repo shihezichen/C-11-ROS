@@ -31,19 +31,10 @@ http://toolcloud.huawei.com/toolmall/tooldetails/e1a9cc02681c46908e395438809a861
   gcc version 9.2.0 (MinGW.org GCC Build-20200227-1)
   ```
 
-### 下载&安装  CMake
+### 配置CLion
 
-https://cmake.org/download/
+菜单:  File -> Settings -> Build,Execution,Deployment -> Toolchains
 
-选择  Windows  win64-x64 Installer 
+添加新的Toolchain, 
 
-
-
-
-
-
-
-
-
-
-
+Environment:  C:\WinGW
