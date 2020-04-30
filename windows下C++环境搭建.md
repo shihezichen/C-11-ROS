@@ -37,4 +37,34 @@ http://toolcloud.huawei.com/toolmall/tooldetails/e1a9cc02681c46908e395438809a861
 
 添加新的Toolchain, 
 
-Environment:  C:\WinGW
+Environment:  C:\MinGW  
+
+CMake: Bundled
+
+Debugger: Bundler GDB
+
+Make, C Compiler, C++ Compiler 等保持不动, 通过环境变量PATH即可找到. 
+
+注: Environment 选择安装MinGW的目录.
+
+### 测试
+
+新建工程:   
+
+```powershell
+菜单:  File -> New Project -> C++ Executable   
+语言:  Language Standard:  C++17
+```
+
+编译工程: 
+
+```powershell
+菜单:  Build -> Build Project
+```
+
+执行:
+
+```powershell
+菜单: Run -> Run 'xxxx'               注:  xxxx 为工程名称
+```
+
